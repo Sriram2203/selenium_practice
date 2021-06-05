@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="8" passed="8">
+  <reporter-output>
+    <line>
+      <![CDATA[tc004  Executed]]>
+    </line>
+    <line>
+      <![CDATA[tc005  Executed]]>
+    </line>
+    <line>
+      <![CDATA[Tc006 executed]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="320" started-at="2021-06-01T17:24:24 PKT" finished-at="2021-06-01T17:24:25 PKT">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="320" started-at="2021-06-01T17:24:24 PKT" finished-at="2021-06-01T17:24:25 PKT">
+      <class name="Frameworks_TestNG.BeforeTest_and_afterTest.TestSuite1">
+        <test-method status="PASS" signature="tc001()[pri:0, instance:Frameworks_TestNG.BeforeTest_and_afterTest.TestSuite1@63440df3]" name="tc001" duration-ms="8" started-at="2021-06-01T17:24:25 PKT" finished-at="2021-06-01T17:24:25 PKT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc001 -->
+        <test-method status="PASS" signature="tc002()[pri:0, instance:Frameworks_TestNG.BeforeTest_and_afterTest.TestSuite1@63440df3]" name="tc002" duration-ms="8" started-at="2021-06-01T17:24:25 PKT" finished-at="2021-06-01T17:24:25 PKT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc002 -->
+        <test-method status="PASS" signature="tc003()[pri:0, instance:Frameworks_TestNG.BeforeTest_and_afterTest.TestSuite1@63440df3]" name="tc003" duration-ms="8" started-at="2021-06-01T17:24:25 PKT" finished-at="2021-06-01T17:24:25 PKT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc003 -->
+      </class> <!-- Frameworks_TestNG.BeforeTest_and_afterTest.TestSuite1 -->
+      <class name="Frameworks_TestNG.BeforeTest_and_afterTest.TestSuite2">
+        <test-method status="PASS" signature="tc004()[pri:0, instance:Frameworks_TestNG.BeforeTest_and_afterTest.TestSuite2@76a3e297]" name="tc004" duration-ms="15" started-at="2021-06-01T17:24:25 PKT" finished-at="2021-06-01T17:24:25 PKT">
+          <reporter-output>
+            <line>
+              <![CDATA[tc004  Executed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tc004 -->
+        <test-method status="PASS" signature="tc005()[pri:0, instance:Frameworks_TestNG.BeforeTest_and_afterTest.TestSuite2@76a3e297]" name="tc005" duration-ms="4" started-at="2021-06-01T17:24:25 PKT" finished-at="2021-06-01T17:24:25 PKT">
+          <reporter-output>
+            <line>
+              <![CDATA[tc005  Executed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tc005 -->
+        <test-method status="PASS" signature="tc006()[pri:0, instance:Frameworks_TestNG.BeforeTest_and_afterTest.TestSuite2@76a3e297]" name="tc006" duration-ms="13" started-at="2021-06-01T17:24:25 PKT" finished-at="2021-06-01T17:24:25 PKT">
+          <reporter-output>
+            <line>
+              <![CDATA[Tc006 executed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tc006 -->
+      </class> <!-- Frameworks_TestNG.BeforeTest_and_afterTest.TestSuite2 -->
+      <class name="Frameworks_TestNG.BeforeTest_and_afterTest.Test_For_Firefox">
+        <test-method status="PASS" signature="Logout()[pri:0, instance:Frameworks_TestNG.BeforeTest_and_afterTest.Test_For_Firefox@77f99a05]" name="Logout" duration-ms="8" started-at="2021-06-01T17:24:25 PKT" finished-at="2021-06-01T17:24:25 PKT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Logout -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:Frameworks_TestNG.BeforeTest_and_afterTest.Test_For_Firefox@77f99a05]" name="afterTest" is-config="true" duration-ms="2" started-at="2021-06-01T17:24:25 PKT" finished-at="2021-06-01T17:24:25 PKT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- Frameworks_TestNG.BeforeTest_and_afterTest.Test_For_Firefox -->
+      <class name="Frameworks_TestNG.BeforeTest_and_afterTest.Test_for_Chrome">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:Frameworks_TestNG.BeforeTest_and_afterTest.Test_for_Chrome@5ed828d]" name="beforeTest" is-config="true" duration-ms="23" started-at="2021-06-01T17:24:24 PKT" finished-at="2021-06-01T17:24:24 PKT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="login()[pri:0, instance:Frameworks_TestNG.BeforeTest_and_afterTest.Test_for_Chrome@5ed828d]" name="login" duration-ms="19" started-at="2021-06-01T17:24:24 PKT" finished-at="2021-06-01T17:24:25 PKT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:Frameworks_TestNG.BeforeTest_and_afterTest.Test_for_Chrome@5ed828d]" name="afterTest" is-config="true" duration-ms="1" started-at="2021-06-01T17:24:25 PKT" finished-at="2021-06-01T17:24:25 PKT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- Frameworks_TestNG.BeforeTest_and_afterTest.Test_for_Chrome -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

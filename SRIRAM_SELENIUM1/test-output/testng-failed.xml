@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [default]">
+  <listeners>
+    <listener class-name="Frameworks_TestNG_test_Listners.Run_Listeners"/>
+  </listeners>
+  <test thread-count="5" name="test1(failed)">
+    <classes>
+      <class name="Frameworks_TestNG_test_Listners.MyTest">
+        <methods>
+          <include name="tc003"/>
+          <include name="tc005"/>
+          <include name="tc002"/>
+        </methods>
+      </class> <!-- Frameworks_TestNG_test_Listners.MyTest -->
+    </classes>
+  </test> <!-- test1(failed) -->
+</suite> <!-- Failed suite [default] -->

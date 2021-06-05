@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+    <line>
+      <![CDATA[TC004 exicuted successfull]]>
+    </line>
+    <line>
+      <![CDATA[TC005 exicuted successfull]]>
+    </line>
+    <line>
+      <![CDATA[TC006 exicuted successfull]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="274" started-at="2021-06-04T19:05:21 PKT" finished-at="2021-06-04T19:05:21 PKT">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="274" started-at="2021-06-04T19:05:21 PKT" finished-at="2021-06-04T19:05:21 PKT">
+      <class name="Package2.ClassB">
+        <test-method status="PASS" signature="TC004()[pri:0, instance:Package2.ClassB@34c4973]" name="TC004" duration-ms="29" started-at="2021-06-04T19:05:21 PKT" finished-at="2021-06-04T19:05:21 PKT">
+          <reporter-output>
+            <line>
+              <![CDATA[TC004 exicuted successfull]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- TC004 -->
+        <test-method status="PASS" signature="TC005()[pri:0, instance:Package2.ClassB@34c4973]" name="TC005" duration-ms="6" started-at="2021-06-04T19:05:21 PKT" finished-at="2021-06-04T19:05:21 PKT">
+          <reporter-output>
+            <line>
+              <![CDATA[TC005 exicuted successfull]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- TC005 -->
+        <test-method status="PASS" signature="TC006()[pri:0, instance:Package2.ClassB@34c4973]" name="TC006" duration-ms="14" started-at="2021-06-04T19:05:21 PKT" finished-at="2021-06-04T19:05:21 PKT">
+          <reporter-output>
+            <line>
+              <![CDATA[TC006 exicuted successfull]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- TC006 -->
+      </class> <!-- Package2.ClassB -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
